@@ -11,15 +11,20 @@ const App = () => {
     // Simulate thinking/reasoning
     setTimeout(() => {
       setProductData({
-        explanation: `Based on the ingredients, here are the three things that matter most for your decision right now:
+        explanation: `🧠 What matters here
+- High processing for a "creamy" feel using rapeseed oil and phosphates.
+- Hidden sweetness from breaking down starches during production.
+- Choice between convenience and whole-food ingredients.
 
-1. **Processing for Texture**: The "creamy" mouthfeel is achieved through added rapeseed oil and phosphates. Companies use these because they prevent separation and create the silky texture of dairy without the actual dairy, but they do make this a highly processed choice rather than a whole food.
+⚖️ Tradeoffs to understand
+- Stabilizers are used to prevent curdling in heat and separation.
+- You gain a smooth, dairy-like experience but compromise on natural fiber and simplicity.
 
-2. **Hidden Sweetness Strategy**: While "sugar" might not be the first item, the way oats are processed often breaks down starches into simpler sugars. It’s an effective way to make the drink palatable, but it means the glycemic impact might be higher than you'd expect from "healthy oats."
+❓ Where uncertainty remains
+- Long-term effects of stabilizers on mineral balance are still being studied.
 
-3. **Additive Tradeoffs**: Dipotassium phosphate is used as an acidity regulator to keep the milk from curdling in coffee. Evidence on its long-term impact on mineral balance is currently evolving, making it a "mixed evidence" ingredient that is fine in moderation but worth noting if consumed in large quantities daily.
-
-**The Decision**: This is a great occasional companion for coffee or baking. However, if you are looking for a daily staple, you might consider an 'Unsweetened' version or one with fewer stabilizers to keep your baseline as natural as possible.`
+✅ Bottom line
+- A great occasional choice for coffee, but consider an unsweetened, simpler version for daily use.`
       })
       setLoading(false)
     }, 2000)
@@ -61,7 +66,7 @@ const App = () => {
         <div className="response-section">
           <div className="boxed primary narrative-box">
             <h2>The Insight</h2>
-            <p style={{ fontSize: '1.25rem', lineHeight: '1.8' }}>
+            <p style={{ fontSize: '1.25rem', lineHeight: '1.8', whiteSpace: 'pre-wrap' }}>
               {productData.explanation}
             </p>
             <div style={{ marginTop: '2rem', borderTop: '2px dashed #000', paddingTop: '1.5rem' }}>
