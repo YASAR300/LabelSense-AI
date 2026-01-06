@@ -11,7 +11,15 @@ const App = () => {
     // Simulate thinking/reasoning
     setTimeout(() => {
       setProductData({
-        explanation: "This product is a classic example of modern convenience balancing against processing. While it's vegan and environmentally friendly, the 'creamy' texture you enjoy comes from rapeseed oil and acidity regulators like dipotassium phosphate. It's perfectly fine for your morning coffee, but if you're looking to reduce processed fats or added sugars, you might find the 'Unsweetened' version a more natural companion for your daily routine. Think of it as a helpful shortcut, rather than a whole-food staple."
+        explanation: `Based on the ingredients, here are the three things that matter most for your decision right now:
+
+1. **Processing for Texture**: The "creamy" mouthfeel is achieved through added rapeseed oil and phosphates. Companies use these because they prevent separation and create the silky texture of dairy without the actual dairy, but they do make this a highly processed choice rather than a whole food.
+
+2. **Hidden Sweetness Strategy**: While "sugar" might not be the first item, the way oats are processed often breaks down starches into simpler sugars. It’s an effective way to make the drink palatable, but it means the glycemic impact might be higher than you'd expect from "healthy oats."
+
+3. **Additive Tradeoffs**: Dipotassium phosphate is used as an acidity regulator to keep the milk from curdling in coffee. Evidence on its long-term impact on mineral balance is currently evolving, making it a "mixed evidence" ingredient that is fine in moderation but worth noting if consumed in large quantities daily.
+
+**The Decision**: This is a great occasional companion for coffee or baking. However, if you are looking for a daily staple, you might consider an 'Unsweetened' version or one with fewer stabilizers to keep your baseline as natural as possible.`
       })
       setLoading(false)
     }, 2000)
