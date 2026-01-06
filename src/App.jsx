@@ -12,19 +12,20 @@ const App = () => {
     setTimeout(() => {
       setProductData({
         explanation: `🧠 What matters here
-- High processing for a "creamy" feel using rapeseed oil and phosphates.
-- Hidden sweetness from breaking down starches during production.
-- Choice between convenience and whole-food ingredients.
+- This product is high in added sugar, which can cause quick energy spikes and crashes.
+- Refined flour makes it filling for a short time but not very satisfying.
+- Emulsifiers and palm oil signal heavy processing.
 
 ⚖️ Tradeoffs to understand
-- Stabilizers are used to prevent curdling in heat and separation.
-- You gain a smooth, dairy-like experience but compromise on natural fiber and simplicity.
+- These ingredients improve taste, texture, and shelf life.
+- The tradeoff is lower nutritional value compared to whole-food options.
 
 ❓ Where uncertainty remains
-- Long-term effects of stabilizers on mineral balance are still being studied.
+- Long-term effects of frequent emulsifier consumption are still being studied.
+- Occasional intake is generally considered safe.
 
 ✅ Bottom line
-- A great occasional choice for coffee, but consider an unsweetened, simpler version for daily use.`
+- Fine as an occasional treat, but not ideal as a daily habit if you’re aiming for balanced nutrition.`
       })
       setLoading(false)
     }, 2000)
